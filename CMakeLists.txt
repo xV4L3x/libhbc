@@ -44,6 +44,7 @@ endif()
 # -----------------------------------------------------------------------------
 add_library(hbc STATIC
         src/.placeholder.cpp
+        include/hbc_errors.h
 
         # src/ files will be added here as we create them, e.g.:
         # src/loader.cpp
